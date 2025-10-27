@@ -1,0 +1,27 @@
+# Pinned dependencies for reproducible environment
+# Choose CPU vs GPU-specific installs for torch/tensorflow as needed.
+
+numpy==1.24.3
+pandas==1.5.3
+matplotlib==3.7.1
+scikit-learn==1.2.2
+scipy==1.10.1
+opencv-python==4.7.0.72
+Pillow==9.5.0
+scikit-image==0.20.0
+
+# TensorFlow (CPU build). If you need GPU, follow TensorFlow install docs for the correct package.
+tensorflow==2.12.0
+
+# PyTorch and torchvision (CPU builds). For CUDA/GPU, install via the instructions at https://pytorch.org.
+torch==2.2.0
+torchvision==0.17.0
+
+# Jupyter / notebook tooling
+jupyter==1.0.0
+ipykernel==6.23.1
+notebook==6.5.4
+
+# Convenience
+tqdm==4.65.0
+seaborn==0.12.2

@@ -1,0 +1,55 @@
+# Ignore everything by default, then whitelist code and documentation files.
+# This ensures the repository only tracks code, notebooks, and small meta files.
+
+# Ignore all files
+*
+
+# But allow directories so we can un-ignore specific files inside them
+!*/
+
+# Keep core repo files
+!.gitignore
+!FILES_TO_COMMIT.md
+!README.md
+!requirements.txt
+!requirements-pinned.txt
+!smoke_test.py
+!*.py
+!*.ipynb
+!*.md
+
+# Keep other small helpers if present
+!.gitattributes
+
+# Explicitly allow dataset README files (we add these to document dataset locations)
+!lung_colon_image_set/**/README.md
+!data/**/README.md
+
+
+# Ignore large data and model artifacts (still explicitly ignored even if above patterns
+# would otherwise include them).
+*.pth
+*.pt
+*.h5
+lung_colon_image_set/
+LungHistology/
+data/
+models/
+.docx
+
+# Virtualenvs
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor / OS cruft
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# End of file
