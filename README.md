@@ -19,15 +19,6 @@ This repository now includes placeholder folders to mirror the backup dataset st
     - `lung_aca/` (adenocarcinoma)
     - `lung_n/` (normal)
     - `lung_scc/` (squamous cell carcinoma)
-  - `colon_image_sets/`
-    - `colon_aca/`
-    - `colon_n/`
-
-- `LungHistology/images/`
-
-  - `aca_bd/`, `aca_md/`, `aca_pd/`, `nor/`, `scc_bd/`, `scc_md/`, `scc_pd/`
-
-- `data/` (general-purpose data and CSVs such as `data.csv`)
 
 ## Backup dataset location
 
