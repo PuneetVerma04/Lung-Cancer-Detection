@@ -29,14 +29,6 @@ This repository now includes placeholder folders to mirror the backup dataset st
 
 - `data/` (general-purpose data and CSVs such as `data.csv`)
 
-If you keep the original dataset elsewhere (e.g., a backup drive), you can either copy the folders into the repo, or create a symlink from the expected path to the backup location. Example (Windows PowerShell):
-
-```powershell
-New-Item -ItemType SymbolicLink -Path .\lung_colon_image_set -Target "F:\Puneet Verma\System BackUp\Lung Cancer Detection\lung_colon_image_set"
-```
-
-(Requires Developer mode or Administrator privileges.)
-
 ## Backup dataset location
 
 The following backup location and structure were provided and match the placeholders above:
